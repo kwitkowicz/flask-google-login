@@ -24,8 +24,9 @@ def create_app(test_config=None):
     def hello():
         return "It's working"
 
+    @app.route('/')
+    def index():
+        return 'Hi!'
+
     return app
-
-
-
 
