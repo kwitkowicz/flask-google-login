@@ -13,6 +13,8 @@ dist/
 build/
 *.egg-info/
 
-.idea/
+.idea/*
 
 .vercel
+notepad.txt
+environ.bat
